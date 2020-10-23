@@ -102,6 +102,7 @@ alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias master="git checkout master"
+alias main="git checkout main"
 alias package-lock-reset="git diff --name-only master | grep package-lock.json | xargs -I{} git checkout master -- {}"
 
 # This loads nvm
