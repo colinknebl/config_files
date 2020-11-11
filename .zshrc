@@ -116,3 +116,7 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 # Adds Flutter to path
 export FLUTTER_PATH="/Users/knebco/Development/flutter/sdk/flutter/bin"
 export PATH="$FLUTTER_PATH:$PATH"
+
+# Adds Go to path
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
